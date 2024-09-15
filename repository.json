@@ -1,5 +1,5 @@
 {
-    "name": "telegram-doorkeeper",
-    "url": "https://github.com/ad/telegram-doorkeeper-homeassistant",
+    "name": "supportbot",
+    "url": "https://github.com/ad/telegram-supportbot-homeassistant",
     "maintainer": "ad <github@apatin.ru>"
 }
