@@ -1,1 +1,1 @@
-# telegram-doorkeeper-homeassistant
+# telegram-supportbot-homeassistant
