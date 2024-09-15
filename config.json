@@ -1,0 +1,54 @@
+{
+    "version": "0.3.1",
+    "name": "telegram-doorkeeper-homeassistant",
+    "slug": "telegram-doorkeeper-homeassistant",
+    "description": "",
+    "startup": "application",
+    "boot": "auto",
+    "image": "danielapatin/telegram-doorkeeper",
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
+    "map": [
+        "config:rw"
+    ],
+    "hassio_role": "default",
+    "options": {
+        "TELEGRAM_TOKEN": "",
+        "TELEGRAM_ADMIN_IDS": "",
+        "TARGET_LINK": "",
+        "TARGET_CHAT": "0",
+        "WAIT_UNTIL_CONFIRMATION": 60,
+        "DB_PATH": "/config/doorkeeper.db",
+        "CHECK_JETTON": "EQDv-yr41_CZ2urg2gfegVfa44PDPjIK9F-MilEDKDUIhlwZ",
+        "JETTON_NAME": "ANON",
+        "JETTON_DECIMALS": 9,
+        "JETTON_MIN_VALUE": "1000000000",
+        "CHECK_GROUP": "",
+        "CHECK_CHANNEL": "",
+        "CHECK_NFT": "EQAOQdwdw8kGftJCSFgOErM1mBjYPe4DBPq8-AhF6vr9si5N",
+        "CHECK_DELAY": 300,
+        "DEBUG": false
+    },
+    "schema": {
+        "TELEGRAM_TOKEN": "str",
+        "TELEGRAM_ADMIN_IDS": "str",
+        "TARGET_LINK": "str",
+        "TARGET_CHAT": "str",
+        "WAIT_UNTIL_CONFIRMATION": "int",
+        "DB_PATH": "str",
+        "CHECK_JETTON": "str",
+        "JETTON_NAME": "str",
+        "JETTON_DECIMALS": "int",
+        "JETTON_MIN_VALUE": "str",
+        "CHECK_GROUP": "str",
+        "CHECK_CHANNEL": "str",
+        "CHECK_NFT": "str",
+        "CHECK_DELAY": "int",
+        "DEBUG": "bool"
+    }
+}
